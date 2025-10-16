@@ -52,3 +52,6 @@ Built with Bootstrap 5, HTML, CSS, and JavaScript.
 - Bootstrap 5
 - JavaScript
 
+## License
+This project is proprietary and all rights are reserved by Mavano Sports Academy.  
+Unauthorized copying, distribution, or modification of this project is strictly prohibited.
