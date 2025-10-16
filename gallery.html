@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/public/Mavano-Favicon.png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <title>Gallery - Marvano Sports Academy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #ffffff; /* Primary White */
+      color: #212529;     /* Secondary Black */
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #212529 !important; /* Black */
+    }
+    .navbar .nav-link {
+      color: #ffffff !important;
+      transition: 0.3s;
+    }
+    .navbar .nav-link:hover {
+      color: #ffffff !important; /* Yellow hover */
+    }
+    .navbar-brand {
+      color: #ffffff !important; /* Yellow Brand */
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                  url("../img/bg2.jpg") center/cover no-repeat;
+      padding: 120px 0;
+      color: #fff;
+    }
+    .transparent-box {
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid #ffffff; /* Yellow border */
+      display: inline-block;
+    }
+    .transparent-box h1 {
+      color: #ffffff; /* Yellow heading */
+    }
+
+    /* Gallery Grid */
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      border: 3px solid #ffffff; /* Yellow border highlight */
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    .gallery {
+      padding: 60px 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000000;
+      color: #fafafa;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    footer a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mavano Sports Academy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+       
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="page-header text-center text-white d-flex align-items-center">
+    <div class="container">
+      <div class="transparent-box p-4 rounded shadow">
+        <h1 class="fw-bold">Gallery</h1>
+        <p class="lead">A glimpse into our sports events, training, and moments</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="gallery container">
+    <div class="row g-4">
+      <div class="col-md-4"><img src="gallery1.jpg" alt="Gallery Image 1"></div>
+      <div class="col-md-4"><img src="gallery2.jpg" alt="Gallery Image 2"></div>
+      <div class="col-md-4"><img src="gallery3.jpg" alt="Gallery Image 3"></div>
+      <div class="col-md-4"><img src="gallery4.jpg" alt="Gallery Image 4"></div>
+      <div class="col-md-4"><img src="gallery5.jpg" alt="Gallery Image 5"></div>
+      <div class="col-md-4"><img src="gallery6.jpg" alt="Gallery Image 6"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="mb-0">&copy; 2025 Mavano Sport Kids Academy. All Rights Reserved.</p>
+    <p>Follow us: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
